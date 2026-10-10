@@ -1,0 +1,47 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: arawind
+      POSTGRES_PASSWORD: arawind
+      POSTGRES_DB: arawind
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U arawind -d arawind"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      SSG_DATABASE_URL: postgresql+psycopg2://arawind:arawind@db:5432/arawind
+      SSG_USE_SENTENCE_TRANSFORMERS: "false"
+      SSG_JWT_SECRET: change-me-in-production-arawind-ssg-2026
+      SSG_ADMIN_EMAIL: admin@example.com
+      SSG_ADMIN_PASSWORD: Admin@Arawind2026
+      SSG_CORS_ORIGINS: '["http://localhost:3000","http://localhost:5173","http://localhost","http://127.0.0.1:3000"]'
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: http://localhost:8000
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  pgdata:

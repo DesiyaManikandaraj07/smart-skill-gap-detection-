@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Data / secrets
+backend/data/raw/
+.env
+.kaggle/
+*.pem
+backend/*.db
+backend/test_arawind.db
+backend/arawind.db
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Model training temp (keep committed model artifact)
+backend/data/processed/training_features.csv

@@ -1,0 +1,212 @@
+{
+  "Python": {
+    "weeks": 3,
+    "courses": ["CS50P (Harvard/edX)", "Python for Everybody (Coursera — free audit)"],
+    "projects": ["CLI expense tracker", "REST API with FastAPI"],
+    "certs": ["PCAP – Certified Associate in Python Programming (optional)"]
+  },
+  "JavaScript": {
+    "weeks": 3,
+    "courses": ["JavaScript.info tutorial", "freeCodeCamp JS Algorithms"],
+    "projects": ["Interactive todo app", "Fetch-based weather dashboard"],
+    "certs": []
+  },
+  "TypeScript": {
+    "weeks": 2,
+    "courses": ["TypeScript Handbook (official)", "Total TypeScript beginners"],
+    "projects": ["Migrate a JS app to TypeScript"],
+    "certs": []
+  },
+  "React": {
+    "weeks": 4,
+    "courses": ["React docs tutorial", "Scrimba React free course"],
+    "projects": ["Portfolio site with React Router", "Dashboard with charts"],
+    "certs": ["Meta Front-End Developer (Coursera — optional)"]
+  },
+  "Node.js": {
+    "weeks": 3,
+    "courses": ["Node.js official guides", "The Odin Project Node path"],
+    "projects": ["Auth API with JWT", "Realtime chat with WebSockets"],
+    "certs": []
+  },
+  "SQL": {
+    "weeks": 2,
+    "courses": ["Mode SQL Tutorial", "SQLBolt"],
+    "projects": ["Normalize a sample ecommerce schema", "Write analytical queries on public data"],
+    "certs": ["freeCodeCamp Relational Database"]
+  },
+  "PostgreSQL": {
+    "weeks": 2,
+    "courses": ["PostgreSQL Tutorial", "Postgres Exercises"],
+    "projects": ["Design indexes for a reporting DB"],
+    "certs": []
+  },
+  "Docker": {
+    "weeks": 2,
+    "courses": ["Docker Getting Started", "Play with Docker labs"],
+    "projects": ["Containerize a full-stack app", "Multi-stage Dockerfile"],
+    "certs": []
+  },
+  "Kubernetes": {
+    "weeks": 4,
+    "courses": ["Kubernetes Basics (k8s.io)", "Killercoda Kubernetes playgrounds"],
+    "projects": ["Deploy an app with Deployment + Service + Ingress"],
+    "certs": ["CKA (advanced, optional)"]
+  },
+  "Amazon Web Services": {
+    "weeks": 4,
+    "courses": ["AWS Cloud Practitioner Essentials (free)", "AWS Skill Builder"],
+    "projects": ["Host a static site on S3+CloudFront", "Lambda + API Gateway hello world"],
+    "certs": ["AWS Cloud Practitioner"]
+  },
+  "Machine Learning": {
+    "weeks": 5,
+    "courses": ["Google ML Crash Course", "fast.ai Practical Deep Learning (audit)"],
+    "projects": ["Tabular classifier with scikit-learn", "End-to-end ML notebook on Kaggle"],
+    "certs": []
+  },
+  "Deep Learning": {
+    "weeks": 5,
+    "courses": ["DeepLearning.AI short courses (audit)", "PyTorch tutorials"],
+    "projects": ["Image classifier with transfer learning"],
+    "certs": []
+  },
+  "Natural Language Processing": {
+    "weeks": 4,
+    "courses": ["Hugging Face NLP course", "spaCy course"],
+    "projects": ["Resume skill extractor", "Text classification pipeline"],
+    "certs": []
+  },
+  "TensorFlow": {
+    "weeks": 3,
+    "courses": ["TensorFlow tutorials"],
+    "projects": ["MNIST / transfer learning notebook"],
+    "certs": ["TensorFlow Developer Certificate (optional)"]
+  },
+  "PyTorch": {
+    "weeks": 3,
+    "courses": ["PyTorch official tutorials"],
+    "projects": ["Custom Dataset + training loop"],
+    "certs": []
+  },
+  "scikit-learn": {
+    "weeks": 2,
+    "courses": ["scikit-learn user guide tutorials"],
+    "projects": ["Model comparison with cross-validation"],
+    "certs": []
+  },
+  "Git": {
+    "weeks": 1,
+    "courses": ["Git Handbook (GitHub)", "Oh My Git! game"],
+    "projects": ["Contribute a PR to an open-source repo"],
+    "certs": []
+  },
+  "CI/CD": {
+    "weeks": 2,
+    "courses": ["GitHub Actions docs", "GitLab CI tutorial"],
+    "projects": ["Add lint+test pipeline to a repo"],
+    "certs": []
+  },
+  "Linux": {
+    "weeks": 2,
+    "courses": ["Linux Journey", "OverTheWire Bandit"],
+    "projects": ["Shell scripting automation"],
+    "certs": []
+  },
+  "Cybersecurity": {
+    "weeks": 4,
+    "courses": ["TryHackMe Pre-Security", "OWASP Top 10"],
+    "projects": ["Threat model a web app", "Secure headers checklist"],
+    "certs": ["CompTIA Security+ (optional)"]
+  },
+  "System Design": {
+    "weeks": 3,
+    "courses": ["System Design Primer (GitHub)", "ByteByteGo free articles"],
+    "projects": ["Design a URL shortener write-up"],
+    "certs": []
+  },
+  "Data Structures": {
+    "weeks": 4,
+    "courses": ["VisuAlgo", "NeetCode roadmap (free videos)"],
+    "projects": ["Solve 50 LeetCode easy/medium problems"],
+    "certs": []
+  },
+  "Tableau": {
+    "weeks": 2,
+    "courses": ["Tableau Public free training"],
+    "projects": ["Publish a dashboard on Tableau Public"],
+    "certs": []
+  },
+  "Power BI": {
+    "weeks": 2,
+    "courses": ["Microsoft Learn Power BI path"],
+    "projects": ["Sales dashboard with DAX basics"],
+    "certs": ["PL-300 (optional)"]
+  },
+  "Flutter": {
+    "weeks": 4,
+    "courses": ["Flutter codelabs"],
+    "projects": ["Cross-platform habit tracker app"],
+    "certs": []
+  },
+  "React Native": {
+    "weeks": 4,
+    "courses": ["React Native docs"],
+    "projects": ["Mobile clone of a notes app"],
+    "certs": []
+  },
+  "Selenium": {
+    "weeks": 2,
+    "courses": ["Selenium WebDriver docs"],
+    "projects": ["Automate login + form test suite"],
+    "certs": []
+  },
+  "Terraform": {
+    "weeks": 3,
+    "courses": ["HashiCorp Learn Terraform"],
+    "projects": ["Provision a VPC + VM in a cloud sandbox"],
+    "certs": ["HashiCorp Terraform Associate (optional)"]
+  },
+  "Apache Spark": {
+    "weeks": 3,
+    "courses": ["Spark Programming Guide"],
+    "projects": ["ETL job on a public CSV dataset"],
+    "certs": []
+  },
+  "GraphQL": {
+    "weeks": 2,
+    "courses": ["GraphQL.org Learn"],
+    "projects": ["Build a GraphQL API over a sample DB"],
+    "certs": []
+  },
+  "FastAPI": {
+    "weeks": 2,
+    "courses": ["FastAPI official tutorial"],
+    "projects": ["CRUD API with Pydantic models"],
+    "certs": []
+  },
+  "Django": {
+    "weeks": 3,
+    "courses": ["Django Girls tutorial", "Official Django tutorial"],
+    "projects": ["Blog with auth and admin"],
+    "certs": []
+  },
+  "Java": {
+    "weeks": 4,
+    "courses": ["Java Tutorials (Oracle)", " mooc.fi Java"],
+    "projects": ["CLI inventory system"],
+    "certs": []
+  },
+  "Spring Boot": {
+    "weeks": 3,
+    "courses": ["Spring Guides"],
+    "projects": ["REST service with Spring Data JPA"],
+    "certs": []
+  },
+  "default": {
+    "weeks": 3,
+    "courses": ["Search free courses on Coursera / edX / freeCodeCamp for this skill"],
+    "projects": ["Build a small portfolio project that exercises this skill"],
+    "certs": []
+  }
+}

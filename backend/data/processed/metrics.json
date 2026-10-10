@@ -1,0 +1,32 @@
+{
+  "model_name": "xgboost_heavy_calibrated",
+  "cv_f1": 0.8614,
+  "cv_accuracy": 0.8734,
+  "test_accuracy": 0.8776,
+  "test_precision": 0.8682,
+  "test_recall": 0.8614,
+  "test_f1": 0.8648,
+  "test_roc_auc": 0.9271,
+  "n_train": 20000,
+  "n_test": 5000,
+  "n_total": 25000,
+  "positive_rate": 0.4545,
+  "feature_names": [
+    "skill_overlap",
+    "jaccard",
+    "embedding_similarity",
+    "experience_years",
+    "project_count",
+    "cert_count",
+    "skill_count",
+    "job_skill_count",
+    "has_degree",
+    "missing_count",
+    "cgpa_norm",
+    "meets_exp_gate",
+    "gate_fail_count"
+  ],
+  "label_note": "Proxy/synthetic labels with hard-gate edge cases \u2014 not real hiring outcomes",
+  "calibrated": true,
+  "architecture": "xgboost_heavy"
+}

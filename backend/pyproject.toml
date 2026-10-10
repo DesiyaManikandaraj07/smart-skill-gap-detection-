@@ -1,0 +1,7 @@
+[tool.pyrefly]
+python-interpreter-path = ".venv_win/Scripts/python.exe"
+search-path = [
+    ".",
+    "ml",
+    ".venv_win/Lib/site-packages"
+]

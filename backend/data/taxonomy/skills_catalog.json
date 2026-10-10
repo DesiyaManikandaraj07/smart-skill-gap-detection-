@@ -1,0 +1,33 @@
+{
+  "source": "Hybrid ESCO IT subset + O*NET Technology Skills (curated for demo)",
+  "skills": [
+    "Python", "JavaScript", "TypeScript", "Java", "C++", "C#", "Go", "Rust", "Kotlin", "Swift", "R", "MATLAB", "PHP", "Ruby", "Scala",
+    "React", "Vue.js", "Angular", "Next.js", "Node.js", "HTML", "CSS", "Tailwind CSS", "Svelte", "jQuery",
+    "Django", "Flask", "FastAPI", "Spring Boot", "Express.js", "Ruby on Rails", ".NET",
+    "SQL", "MySQL", "PostgreSQL", "MongoDB", "Redis", "Elasticsearch", "Cassandra", "DynamoDB", "SQLite",
+    "Amazon Web Services", "Google Cloud Platform", "Microsoft Azure", "Docker", "Kubernetes", "Terraform", "Ansible", "CI/CD", "Jenkins", "Git", "Linux", "Bash", "Helm",
+    "Machine Learning", "Deep Learning", "Natural Language Processing", "Computer Vision", "TensorFlow", "PyTorch", "scikit-learn", "Pandas", "NumPy", "Apache Spark", "Apache Kafka", "Apache Airflow", "dbt", "Snowflake", "BigQuery", "Hadoop",
+    "Tableau", "Power BI", "Microsoft Excel", "Looker",
+    "REST API", "GraphQL", "Microservices", "System Design", "Data Structures", "Algorithms", "Object-Oriented Programming",
+    "Cybersecurity", "Penetration Testing", "OWASP", "Computer Networking", "OAuth", "JWT",
+    "Selenium", "Cypress", "Jest", "pytest", "JUnit", "Playwright",
+    "Flutter", "React Native", "SwiftUI", "Android", "iOS",
+    "Agile", "Scrum", "Jira", "Figma", "Prometheus", "Grafana", "Istio",
+    "Communication", "Problem Solving", "Teamwork", "Leadership"
+  ],
+  "esco_ids": {
+    "Python": "ESCO:S5.5.2",
+    "JavaScript": "ESCO:S5.5.3",
+    "Machine Learning": "ESCO:S2.1.1",
+    "SQL": "ESCO:S5.6.1",
+    "Docker": "ESCO:S5.7.1",
+    "Cybersecurity": "ESCO:S2.2.1"
+  },
+  "onet_codes": {
+    "Software Developers": "15-1252.00",
+    "Data Scientists": "15-2051.00",
+    "Information Security Analysts": "15-1212.00",
+    "Database Administrators": "15-1242.00",
+    "Web Developers": "15-1254.00"
+  }
+}
